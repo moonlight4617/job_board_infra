@@ -8,3 +8,9 @@ module "php" {
 
   name = "jobpair-prod-php"
 }
+
+module "mysql" {
+  source = "../../../../modules/ecr"
+
+  name = "jobpair-prod-mysql"
+}
